@@ -36,7 +36,7 @@ const options = {
   },
 };
 
-const flatpickr = flatpickr(input, options);
+const flatpickrInput = flatpickr(input, options);
 
 /**
  * Function gets id of interval and makes button Start abled
