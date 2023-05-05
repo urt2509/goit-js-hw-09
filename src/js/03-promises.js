@@ -39,7 +39,7 @@ function handlerForm(evt) {
  * Function creates promices
  * @param {Number} position
  * @param {Number} delay
- * @returns
+ * @returns promise result
  */
 function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
